@@ -8,14 +8,15 @@ from datetime import datetime
 # value: 数据库配置字典
 FIELD_MAPPING_CONFIG = {
     # 业务字段
-    "一级审计事项": {"db_column": "level1_category", "type": String(255), "comment": "一级审计事项"},
-    "二级审计事项": {"db_column": "level2_category", "type": String(255), "comment": "二级审计事项"},
-    "三级审计事项": {"db_column": "level3_category", "type": Text, "comment": "三级审计事项"},
-    "法规名称": {"db_column": "regulation_name", "type": String(255), "comment": "法规名称"},
-    "法规条例": {"db_column": "regulation_article", "type": String(255), "comment": "法规条例"},
-    "审计措施": {"db_column": "audit_measure", "type": Text, "comment": "审计措施"},
-    "适用主体": {"db_column": "restriction_summary", "type": Text, "comment": "适用主体"},
-    "适用范围": {"db_column": "usage_scope", "type": Text, "comment": "适用范围"},
+    "序号": {"db_column": "序号", "type": String(50), "comment": "序号"},
+    "一级审计事项": {"db_column": "一级审计事项", "type": String(255), "comment": "一级审计事项"},
+    "二级审计事项": {"db_column": "二级审计事项", "type": String(255), "comment": "二级审计事项"},
+    "三级审计事项": {"db_column": "三级审计事项", "type": Text, "comment": "三级审计事项"},
+    "法规名称": {"db_column": "法规名称", "type": String(255), "comment": "法规名称"},
+    "法规条例": {"db_column": "法规条例", "type": Text, "comment": "法规条例"},
+    "审计措施": {"db_column": "审计措施", "type": Text, "comment": "审计措施"},
+    "适用主体": {"db_column": "适用主体", "type": Text, "comment": "适用主体"},
+    "适用范围": {"db_column": "适用范围", "type": Text, "comment": "适用范围"},
 }
 
 # 表名配置
